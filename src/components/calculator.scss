@@ -1,0 +1,41 @@
+.calculator {
+  display: flex;
+  flex-flow: column;
+  width: 500px;
+  height: 300px;
+
+  .output {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #858694;
+
+    .screen {
+      margin: 0 5px 0 0;
+    }
+  }
+
+  .buttons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+
+    .button {
+      border: 1px solid #a3a5c7;
+      font-size: 1rem;
+    }
+
+    .button:active {
+      background-color: #a3a5c7;
+    }
+
+    .operator {
+      background-color: #f5913e;
+    }
+
+    #zero {
+      -ms-grid-column: 1/2;
+      grid-column: 1/3;
+    }
+  }
+}
