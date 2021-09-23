@@ -40,6 +40,13 @@ export default function calculate(obj, buttonName) {
         total: null,
       };
     }
+    if (obj.total && obj.total.includes('.')) {
+      return {
+        total: obj.total + buttonName,
+        operation: null,
+        next: null,
+      };
+    }
     return {
       next: buttonName,
       total: null,
