@@ -61,13 +61,13 @@ export default function calculate(obj, buttonName) {
       return { ...obj, next: `${obj.next}.` };
     }
     if (obj.operation) {
-      return { next: '0.' };
+      return { ...obj, next: '0.' };
     }
     if (obj.total) {
       if (obj.total.includes('.')) {
         return {};
       }
-      return { total: `${obj.total}.` };
+      return { ...obj, total: `${obj.total}.` };
     }
     return { total: '0.' };
   }
@@ -81,7 +81,13 @@ export default function calculate(obj, buttonName) {
       };
     }
     // '=' with no operation, nothing to do
-    return {};
+    if (obj.total) {
+      return {
+        total: obj.total,
+        next: null,
+        operation: null,
+      };
+    }
   }
 
   if (buttonName === '+/-') {
