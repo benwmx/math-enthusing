@@ -1,3 +1,5 @@
+$btn-bg-color: #a3a5c7;
+
 .calculator {
   display: flex;
   flex-flow: column;
@@ -21,12 +23,12 @@
     height: 100%;
 
     .button {
-      border: 1px solid #a3a5c7;
+      border: 1px solid $btn-bg-color;
       font-size: 1rem;
     }
 
     .button:active {
-      background-color: #a3a5c7;
+      background-color: $btn-bg-color;
     }
 
     .operator {
