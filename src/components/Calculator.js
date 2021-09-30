@@ -18,7 +18,7 @@ export default function Calculator() {
   };
 
   return (
-    <>
+    <div className="container container-calc">
       <h2 className="title">Let&apos;s do some math!</h2>
       <div className="calculator">
         <div className="output">
@@ -46,6 +46,6 @@ export default function Calculator() {
           <button name="=" type="button" className="button operator" onClick={runCalculation}> = </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
