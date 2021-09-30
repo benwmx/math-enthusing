@@ -4,10 +4,12 @@ import './App.css';
 import Calculator from './components/Calculator';
 import Quote from './components/pages/Quote';
 import Home from './components/pages/Home';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <Router>
+      <NavBar />
       <Switch>
         <Route path="/Calculator">
           <div className="App">
@@ -17,7 +19,7 @@ function App() {
         <Route path="/Quote">
           <Quote />
         </Route>
-        <Route path="/">
+        <Route path="/" exact>
           <Home />
         </Route>
       </Switch>
