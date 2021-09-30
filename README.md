@@ -1,7 +1,9 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Movie Lover
+![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+# Math Enthusing
 
 > Single Page App (SPA) that allows users to:
  - Make simple calculations. 
@@ -11,8 +13,11 @@
 
 - Javascript
 - React JS
+- Sass
 
-
+## Live demo
+the App is hosted on GitHub pages : 
+[link](https://benwmx.github.io/math-magicians/#/)
 ## Getting Started
 
 to use this repo please follow this steps : 
@@ -46,4 +51,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.

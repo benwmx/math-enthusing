@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+$indigo: #432f70;
+$purpleHaze:#713770;
+$fuchsia: #b34270;
+$roseRed: #e95670;
+$blueGreen: #00b1b0;
+$freesia: #fec84d;
+$navyBlue: #284b70;
+$bgMain: #8ad6cf;
+$fontScript: 'Dancing Script', cursive;
+
+:root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: $bgMain;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  height: 80px;
+  background-color: $navyBlue;
+
+  h1 {
+    font-family: $fontScript;
+    font-weight: bold;
+    color: $blueGreen;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  .nav-links {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+
+    a {
+      font-style: italic;
+      text-decoration: none;
+      font-size: 1.1rem;
+      color: $freesia;
+    }
+
+    .active-link {
+      font-style: normal;
+      font-weight: bold;
+      color: $blueGreen;
+    }
+  }
+}
+
+.container {
+  width: 90%;
+  margin: 50px auto;
+  color: $indigo;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.container-calc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-details {
+  word-spacing: 5px;
+  font-size: 1.3rem;
+  margin-top: 70px;
+}
+
+.quote {
+  @extend .home-details;
+
+  margin-top: 100px;
+}
