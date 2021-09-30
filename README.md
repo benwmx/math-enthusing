@@ -3,7 +3,7 @@
 
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
-# Movie Enthusing
+# Math Enthusing
 
 > Single Page App (SPA) that allows users to:
  - Make simple calculations. 
