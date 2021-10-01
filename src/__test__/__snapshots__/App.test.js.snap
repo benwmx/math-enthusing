@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component test Should render 1`] = `
+Array [
+  <header
+    className="navbar"
+  >
+    <h1>
+      Math Enthusing
+    </h1>
+    <ul
+      className="nav-links"
+    >
+      <a
+        aria-current="page"
+        className="active-link"
+        href="#/"
+        onClick={[Function]}
+        style={Object {}}
+      >
+        Home
+      </a>
+      <a
+        aria-current={null}
+        href="#/Calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <a
+        aria-current={null}
+        href="#/Quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </ul>
+  </header>,
+  <div
+    className="home container"
+  >
+    <h2
+      className="title"
+    >
+      Welcome to our Page
+    </h2>
+    <p
+      className="home-details"
+    >
+      lorem ipsum dolor sit amet, consectetur adiplore, sed do eiusmod tempor incidid lorem inc lorem ipsum dolor sit amet, consectetur adiplore, sed do eius mod lorem ipsum dolor sit amet, consectetur adiplore, sed do eiusmod tempor incididunt lorem inc lore sit amet et alice. Lore m lorem ips lorem  ipsum dolor sit amet,  consectet lorem ipsum dolor sit amet, consectetur adiplore, sed do eiusmod tempor lorem ipsum dolor sit amet, consectetur adiplore, sed do eiusmod tempor incidid lorem inc lorem ipsum dolor sit amet, consectetur adiplore, sed do eius mod lorem ipsum dolor sit amet, consectetur adiplore, sed do eiusmod tempor incididunt lorem inc lore sit amet et alice. Lore m lorem ips lorem  ipsum dolor sit amet,  consectet lorem ipsum dolor sit amet, consectetur adiplore, sed do eiusmod tempor lorem ipsum dolor sit amet, consectetur adiplore, sed do eiusmod tempor incidid lorem inc lorem ipsum dolor sit amet, consectetur adiplore, sed do eius mod lorem ipsum dolor sit amet, consectetur adiplore, sed do eiusmod tempor incididunt lorem inc lore sit amet et alice. Lore m lorem ips lorem  ipsum dolor sit amet,  consectet lorem ipsum dolor sit amet, consectetur adiplore, sed do eiusmod tempor
+    </p>
+  </div>,
+]
+`;

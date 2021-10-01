@@ -3,15 +3,6 @@ import calculate from '../logic/calculate';
 let obj = [];
 let result = [];
 describe('Testing the Calculate Function', () => {
-  // test('Test AC Button', () => {
-  //   obj = calculate(obj, 'AC');
-  //   result = {
-  //     total: null,
-  //     next: null,
-  //     operation: null,
-  //   };
-  //   expect(obj).toBe(result);
-  // });
   test('Test Buttons 1 0 + 5 = ', () => {
     obj = calculate(obj, '1');
     obj = calculate(obj, '0');
