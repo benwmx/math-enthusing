@@ -3,6 +3,8 @@
 
 ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)
+![](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1536da25-6b75-4c34-b221-35c9998b1497/deploy-status)](https://app.netlify.com/sites/math-enthusing/deploys)
 # Math Enthusing
 
 > Single Page App (SPA) that allows users to:
@@ -17,9 +19,9 @@
 
 ## Live demo
 the App is hosted on GitHub pages : 
-[Github Pages](https://benwmx.github.io/math-magicians/#/)
-[Heroku](https://lit-dusk-33084.herokuapp.com/#/)
-[Netlify](https://math-enthusing.netlify.app/#/)
+- [Github Pages](https://benwmx.github.io/math-magicians/#/)
+- [Heroku](https://lit-dusk-33084.herokuapp.com/#/)
+- [Netlify](https://math-enthusing.netlify.app/#/)
 ## Getting Started
 
 to use this repo please follow this steps : 
