@@ -17,7 +17,9 @@
 
 ## Live demo
 the App is hosted on GitHub pages : 
-[link](https://benwmx.github.io/math-magicians/#/)
+[Github Pages](https://benwmx.github.io/math-magicians/#/)
+[Heroku](https://lit-dusk-33084.herokuapp.com/#/)
+[Netlify](https://math-enthusing.netlify.app/#/)
 ## Getting Started
 
 to use this repo please follow this steps : 
